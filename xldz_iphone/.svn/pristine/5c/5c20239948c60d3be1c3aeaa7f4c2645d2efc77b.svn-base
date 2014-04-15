@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>608D38FF-434E-40ED-8F38-C8038A622E59</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NRGridView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B14729C6-DFEC-41C9-8824-F655108EB0BE</key>
+		<string>http://42.121.128.15/svn/ctmanyou</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>client-ios/roamassistant/roamassistant/third/NRGridView/NRGridView.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B14729C6-DFEC-41C9-8824-F655108EB0BE</key>
+		<string>../../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>B14729C6-DFEC-41C9-8824-F655108EB0BE</key>
+		<string>http://42.121.128.15/svn/ctmanyou</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://42.121.128.15/svn/ctmanyou/client-ios/roamassistant/roamassistant/third/NRGridView/NRGridView.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B14729C6-DFEC-41C9-8824-F655108EB0BE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B14729C6-DFEC-41C9-8824-F655108EB0BE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ctmanyou</string>
+		</dict>
+	</array>
+</dict>
+</plist>

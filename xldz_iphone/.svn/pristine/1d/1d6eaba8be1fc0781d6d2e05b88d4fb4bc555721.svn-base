@@ -1,0 +1,292 @@
+//
+// Created by sureone on 2/11/14.
+// Copyright (c) 2014 Pixel-in-Gene. All rights reserved.
+//
+// To change the template use AppCode | Preferences | File Templates.
+//
+
+
+#import "TabHomeViewController.h"
+#import "TopBarViewController.h"
+#import "HomeUserViewController.h"
+#import "LeftSideUserMenuViewController.h"
+#import "MFSideMenuContainerViewController.h"
+#import "RightSideUserMenuViewController.h"
+#import "RightSideSystemMenuViewController.h"
+#import "LeftSideSystemMenuViewController.h"
+#import "LeftSideLineMenuViewController.h"
+#import "RightSideLineMenuViewController.h"
+
+@interface TabHomeViewController() <MHTabBarControllerDelegate>
+
+@end
+
+@implementation TabHomeViewController {
+    NSArray *viewControllers;
+//    UIView *fixedTopBarView;
+    UIView *tabContentView;
+    MHTabBarController *tabBarController;
+    TopBarViewController* topBarViewController;
+    MFSideMenuContainerViewController* homeUserViewContainer;
+    MFSideMenuContainerViewController* homeSysViewContainer;
+    MFSideMenuContainerViewController* homeLineViewContainer;
+    
+    HomeUserViewController* homeUserViewController;
+        HomeUserViewController* homeSystemViewController;
+        HomeUserViewController* homeLineViewController;
+
+}
+
+
+- (void)mh_tabBarController:(MHTabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController atIndex:(NSUInteger)index{
+     if(index==0){
+         self.currView=@"user";
+         [homeUserViewController loadData];
+     }if(index==1){
+        self.currView=@"line";
+         [homeLineViewController loadData];
+    }if(index==2){
+        self.currView=@"sys";
+        [homeSystemViewController loadData];
+    }
+
+}
+
+- (void)setupLeftMenuItems {
+
+}
+- (void)setupRightMenuItems {
+
+}
+
+- (void)mh_tabBarControllerLeftFixButtonPressed:(MHTabBarController *)tabBarController atSide:(int)side
+{
+    if([_currView isEqualToString:@"user"]){
+        if(side==0)
+            [homeUserViewContainer toggleLeftSideMenuCompletion:^{
+                [self setupLeftMenuItems];
+            }];
+        else
+            [homeUserViewContainer toggleRightSideMenuCompletion:^{
+                [self setupRightMenuItems];
+            }];
+    }else if([_currView isEqualToString:@"line"]){
+
+        if(side==0)
+            [homeLineViewContainer toggleLeftSideMenuCompletion:^{
+                [self setupLeftMenuItems];
+            }];
+        else
+            [homeLineViewContainer toggleRightSideMenuCompletion:^{
+                [self setupRightMenuItems];
+            }];
+
+    }else if([_currView isEqualToString:@"sys"]){
+        if(side==0)
+            [homeSysViewContainer toggleLeftSideMenuCompletion:^{
+                [self setupLeftMenuItems];
+            }];
+        else
+            [homeSysViewContainer toggleRightSideMenuCompletion:^{
+                [self setupRightMenuItems];
+            }];
+    }
+
+}
+
+
+
+
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        self.title = @"首页";
+    }
+    return self;
+}
+
+- (NSString *)tabImageName
+{
+	return @"home_icon";
+}
+
+- (CGFloat)topBarHeight
+{
+    return 40.0f;
+}
+
+#define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IS_IPHONE_5 (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 568.0f)
+
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+
+    self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+
+//    fixedTopBarView = [[UIView alloc] initWithFrame:rect];
+//    fixedTopBarView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
+//    [self.view addSubview:fixedTopBarView];
+//
+//
+//    float height = [[UIScreen mainScreen] bounds].size.height;
+//
+//    if(IS_IPHONE && height == 568.0f)
+//    {
+//        topBarViewController = [[TopBarViewController alloc] initWithNibName:@"fixed_top_view" bundle:nil];
+//    }
+//    else if(IS_IPHONE)
+//    {
+//        topBarViewController = [[TopBarViewController alloc] initWithNibName:@"fixed_top_view" bundle:nil];
+//    }
+
+//
+//    [self addChildViewController:topBarViewController];
+//    [topBarViewController didMoveToParentViewController:self];
+//
+//
+//    [fixedTopBarView addSubview:topBarViewController.view];
+
+//    rect.origin.y = self.topBarHeight;
+    
+//    rect.size.height = self.view.bounds.size.height - self.topBarHeight;
+    CGRect rect = self.view.bounds;
+    if (IOS_VERSION_7) {
+        rect.origin.y = 20.f;
+        rect.size.height -= 20.f;
+    }
+    tabContentView = [[UIView alloc] initWithFrame:rect];
+    tabContentView.backgroundColor = [UIColor blackColor];
+    tabContentView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+
+    [self.view addSubview:tabContentView];
+
+
+    tabBarController = [[MHTabBarController alloc] init];
+    tabBarController.showMenuBtns = YES;
+
+    [self addChildViewController:tabBarController];
+    [tabBarController didMoveToParentViewController:self];
+
+
+    [self loadTabs];
+    
+    tabBarController.view.frame = self.view.bounds;
+    [tabContentView addSubview:tabBarController.view];
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    self.navigationController.navigationBarHidden = YES;
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    self.navigationController.navigationBarHidden = NO;
+}
+
+-(void)loadTabs {
+    
+    
+    homeUserViewController = [[HomeUserViewController alloc] init];
+    
+    
+    homeUserViewController.viewType=@"user";
+    RightSideUserMenuViewController *rightSideUserMenuViewController = [[RightSideUserMenuViewController alloc] init];
+    LeftSideUserMenuViewController *leftMenuViewController = [[LeftSideUserMenuViewController alloc] init];
+    homeUserViewContainer = [MFSideMenuContainerViewController
+                                                 containerWithCenterViewController:homeUserViewController
+                                                      leftMenuViewController:leftMenuViewController
+                                                    rightMenuViewController:rightSideUserMenuViewController];
+    
+    homeUserViewContainer.title=@"用户";
+
+    //todo 模拟数据
+    homeUserViewController.userId=@"user1";
+    
+    homeUserViewContainer.menuWidth=self.view.frame.size.width*3/5;
+    homeUserViewContainer.panMode=MFSideMenuPanModeDefault;
+    
+    
+    homeUserViewController.parentViewHavePanGesture = homeUserViewContainer;
+
+
+    homeSystemViewController = [[HomeUserViewController alloc] init];
+
+    
+    homeSystemViewController.viewType=@"system";
+
+    RightSideSystemMenuViewController *rightSideSystemMenuViewController = [[RightSideSystemMenuViewController alloc] init];
+
+
+
+
+    LeftSideSystemMenuViewController *leftSideSystemMenuViewController = [[LeftSideSystemMenuViewController alloc] init];
+    homeSysViewContainer = [MFSideMenuContainerViewController
+            containerWithCenterViewController:homeSystemViewController
+                       leftMenuViewController:leftSideSystemMenuViewController
+                      rightMenuViewController:rightSideSystemMenuViewController];
+
+    homeSysViewContainer.title=@"系统";
+
+
+
+
+
+    homeSysViewContainer.menuWidth=self.view.frame.size.width*3/5;
+    homeSysViewContainer.panMode=MFSideMenuPanModeDefault;
+
+
+
+    homeSystemViewController.parentViewHavePanGesture = homeSysViewContainer;
+
+
+    homeLineViewController = [[HomeUserViewController alloc] init];
+
+    homeLineViewController.viewType=@"line";
+    
+
+    RightSideLineMenuViewController *rightSideLineMenuViewController = [[RightSideLineMenuViewController alloc] init];
+
+
+
+
+    LeftSideLineMenuViewController *leftSideLineMenuViewController = [[LeftSideLineMenuViewController alloc] init];
+    homeLineViewContainer = [MFSideMenuContainerViewController
+            containerWithCenterViewController:homeLineViewController
+                       leftMenuViewController:leftSideLineMenuViewController
+                      rightMenuViewController:rightSideLineMenuViewController];
+
+    homeLineViewContainer.title=@"线路";
+
+
+
+
+
+    homeLineViewContainer.menuWidth=self.view.frame.size.width*3/5;
+    homeLineViewContainer.panMode=MFSideMenuPanModeDefault;
+
+
+
+    homeLineViewController.parentViewHavePanGesture = homeLineViewContainer;
+
+//    listViewController1.title = @"Tab 1";
+//    listViewController2.title = @"Tab 2";
+//    listViewController3.title = @"Tab 3";
+//
+//    listViewController2.tabBarItem.image = [UIImage imageNamed:@"Taijitu"];
+//    listViewController2.tabBarItem.imageInsets = UIEdgeInsetsMake(0.0f, -4.0f, 0.0f, 0.0f);
+//    listViewController2.tabBarItem.titlePositionAdjustment = UIOffsetMake(4.0f, 0.0f);
+
+    viewControllers = @[homeUserViewContainer, homeLineViewContainer, homeSysViewContainer];
+
+    tabBarController.delegate = self;
+    tabBarController.viewControllers = viewControllers;
+
+}
+@end

@@ -1,0 +1,161 @@
+//
+//  TabMapViewController.mm
+//  XLApp
+//
+//  Created by sureone on 2/16/14.
+//  Copyright (c) 2014 Pixel-in-Gene. All rights reserved.
+//
+
+//注:静态库中采用ObjectC++实现，因此需要您保证您工程中至少有一个.mm后缀的源文件(您可以将任意一个.m后缀的文件改名为.mm)，或者在工程属性中指定编译方式，即将XCode的Project -> Edit Active Target -> Build -> GCC4.2 - Language -> Compile Sources As设置为"Objective-C++
+
+#import "TabMapViewController.h"
+
+#import "BMapKit.h"  
+#import "DeviceViewController.h"
+
+@interface TabMapViewController () <BMKMapViewDelegate>
+{
+    BMKMapView *_mapView;
+    
+    NSArray *annotations;
+}
+
+@end
+
+@implementation TabMapViewController
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        self.title = @"地图";
+    }
+    return self;
+}
+
+- (NSString *)tabImageName
+{
+	return @"map_icon";
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+	
+    _mapView = [[BMKMapView alloc]initWithFrame:self.view.bounds];
+    _mapView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    [_mapView setShowsUserLocation:YES];//显示定位的蓝点儿
+    
+    [self.view addSubview:_mapView];
+    
+//    float zoomLevel = 0.02;
+//    double lat = 31.867037;
+//    double lot = 118.824720;
+//    CLLocationCoordinate2D theLocation = CLLocationCoordinate2DMake(lat,lot);
+//    NSDictionary *tip = BMKBaiduCoorForWgs84(theLocation);
+//    theLocation = BMKCoorDictionaryDecode(tip);
+//    BMKCoordinateRegion viewRegion = BMKCoordinateRegionMake(theLocation, BMKCoordinateSpanMake(zoomLevel, zoomLevel));
+//    BMKCoordinateRegion adjustedRegion = [_mapView regionThatFits:viewRegion];
+//    [_mapView setRegion:adjustedRegion animated:YES];
+    
+    double centerLat = 31.867037;
+    double centerLot = 118.824720;
+    double deltaLat = 0.02;
+    double deltaLot = 0.02;
+    
+    self.devices = [[XLModelDataInterface testData] queryDevicesInMap];
+    NSMutableArray *array = [NSMutableArray array];
+    NSMutableArray *a = [NSMutableArray array];
+    BOOL first = YES;
+    for (XLViewDataDevice *device in self.devices) {
+        if (device.latitude == 0 && device.longitude == 0) {
+            NSLog(@"%@ has no coordinate for map", device);
+            [array addObject:[NSNull null]];
+        } else {
+            BMKPointAnnotation *ann = [self addPointAnnotation:device];
+            [array addObject:ann];
+            [a addObject:ann];
+            
+            if (first) {
+                first = NO;
+                centerLat = device.latitude;
+                centerLot = device.longitude;
+            } else {
+                deltaLat = MAX(deltaLat, ABS(device.latitude - centerLat));
+                deltaLot = MAX(deltaLot, ABS(device.longitude - centerLot));
+            }
+        }
+    }
+    annotations = array;
+    [_mapView addAnnotations:a];
+    
+    CLLocationCoordinate2D theLocation = CLLocationCoordinate2DMake(centerLat,centerLot);
+    BMKCoordinateRegion viewRegion = BMKCoordinateRegionMake(theLocation, BMKCoordinateSpanMake(deltaLat * 2.5, deltaLot * 2.5));
+    [_mapView setRegion:viewRegion animated:YES];
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [_mapView viewWillAppear];
+    _mapView.delegate = self; // 此处记得不用的时候需要置nil，否则影响内存的释放
+}
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    [_mapView viewWillDisappear];
+    _mapView.delegate = nil; // 不用时，置nil
+}
+
+//添加标注
+- (BMKPointAnnotation *)addPointAnnotation:(XLViewDataDevice *)device
+{
+    BMKPointAnnotation *pointAnnotation = [[BMKPointAnnotation alloc] init];
+    CLLocationCoordinate2D coor;
+    coor.latitude = device.latitude;
+    coor.longitude = device.longitude;
+    pointAnnotation.coordinate = coor;
+    pointAnnotation.title = device.deviceName;
+//    pointAnnotation.subtitle = device.
+    
+    return pointAnnotation;
+}
+
+#pragma mark - BMKMapViewDelegate
+
+// 根据anntation生成对应的View
+- (BMKAnnotationView *)mapView:(BMKMapView *)mapView viewForAnnotation:(id <BMKAnnotation>)annotation
+{
+    NSString *AnnotationViewID = @"renameMark";
+    BMKAnnotationView* newAnnotation = [[BMKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:AnnotationViewID];
+    // 设置颜色
+    ((BMKPinAnnotationView*)newAnnotation).pinColor = BMKPinAnnotationColorPurple;
+    // 从天上掉下效果
+    ((BMKPinAnnotationView*)newAnnotation).animatesDrop = NO;
+    // 设置可拖拽
+    ((BMKPinAnnotationView*)newAnnotation).draggable = NO;
+    
+    return newAnnotation;
+}
+
+// 当点击annotation view弹出的泡泡时，调用此接口
+- (void)mapView:(BMKMapView *)mapView annotationViewForBubble:(BMKAnnotationView *)view;
+{
+    NSLog(@"paopaoclick");
+    BMKPointAnnotation *annotation = view.annotation;
+    NSUInteger index = [annotations indexOfObject:annotation];
+    if (index != NSNotFound) {
+        XLViewDataDevice *device = [self.devices objectAtIndex:index];
+        DeviceViewController *controller = [[DeviceViewController alloc] init];
+        controller.device = device;
+        [self.navigationController pushViewController:controller animated:YES];
+    }
+}
+
+@end

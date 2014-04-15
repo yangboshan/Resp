@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6ADBA1E6-539E-4DC9-BD1C-AAD78829C62D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ZXingWidget</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>15520038-3812-40A8-947B-800D82E23808</key>
+		<string>http://42.121.128.15/svn/xldz_iphone</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>zxing/iphone/ZXingWidget/ZXingWidget.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>15520038-3812-40A8-947B-800D82E23808</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>15520038-3812-40A8-947B-800D82E23808</key>
+		<string>http://42.121.128.15/svn/xldz_iphone</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://42.121.128.15/svn/xldz_iphone/zxing/iphone/ZXingWidget/ZXingWidget.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>15520038-3812-40A8-947B-800D82E23808</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>15520038-3812-40A8-947B-800D82E23808</string>
+			<key>IDESourceControlWCCName</key>
+			<string>xldz_iphone</string>
+		</dict>
+	</array>
+</dict>
+</plist>

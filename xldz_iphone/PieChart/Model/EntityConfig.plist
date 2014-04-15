@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AFNA</key>
+	<dict/>
+	<key>AFNC</key>
+	<dict/>
+	<key>AFND</key>
+	<dict>
+		<key>F123</key>
+		<integer>3</integer>
+		<key>F122</key>
+		<integer>3</integer>
+		<key>F121</key>
+		<integer>3</integer>
+		<key>F44</key>
+		<integer>2</integer>
+		<key>F36</key>
+		<integer>2</integer>
+		<key>F35</key>
+		<integer>2</integer>
+		<key>F33</key>
+		<integer>2</integer>
+		<key>F43</key>
+		<integer>2</integer>
+		<key>F28</key>
+		<integer>2</integer>
+		<key>F27</key>
+		<integer>2</integer>
+		<key>F25</key>
+		<integer>2</integer>
+		<key>F46</key>
+		<integer>0</integer>
+		<key>F21</key>
+		<integer>0</integer>
+		<key>F45</key>
+		<integer>0</integer>
+		<key>F6</key>
+		<integer>0</integer>
+		<key>F5</key>
+		<integer>0</integer>
+		<key>F34</key>
+		<integer>1</integer>
+		<key>F26</key>
+		<integer>1</integer>
+		<key>F3</key>
+		<integer>1</integer>
+	</dict>
+</dict>
+</plist>

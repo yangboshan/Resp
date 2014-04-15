@@ -1,0 +1,52 @@
+//
+//  TabMoreViewController.m
+//  XLApp
+//
+//  Created by sureone on 2/16/14.
+//  Copyright (c) 2014 Pixel-in-Gene. All rights reserved.
+//
+
+#import "TabMoreViewController.h"
+
+@interface TabMoreViewController ()
+
+@end
+
+@implementation TabMoreViewController
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
+
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        self.title = @"更多";
+    }
+    return self;
+}
+
+- (NSString *)tabImageName
+{
+	return @"more_icon";
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+	// Do any additional setup after loading the view.
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+@end

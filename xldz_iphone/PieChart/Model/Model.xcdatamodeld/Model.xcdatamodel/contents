@@ -1,0 +1,1252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="12F45" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CurveData" representedClassName="CurveData" syncable="YES">
+        <attribute name="cvAvg" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvBeginDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cvCurveDensity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cvCurvePoints" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvCurveType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvDataTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cvMax" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="cvMaxTime" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvMeasureNo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvMin" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="cvMinTime" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="cvPoint1" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint2" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint3" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint4" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint5" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint6" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint7" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint8" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint9" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint10" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint11" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint12" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint13" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint14" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint15" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint16" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint17" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint18" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint19" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint20" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint21" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint22" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint23" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint24" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint25" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint26" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint27" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint28" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint29" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint30" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint31" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint32" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint33" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint34" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint35" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint36" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint37" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint38" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint39" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint40" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint41" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint42" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint43" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint44" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint45" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint46" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint47" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint48" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint49" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint50" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint51" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint52" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint53" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint54" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint55" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint56" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint57" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint58" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint59" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint60" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint61" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint62" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint63" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint64" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint65" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint66" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint67" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint68" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint69" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint70" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint71" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint72" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint73" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint74" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint75" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint76" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint77" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint78" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint79" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint80" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint81" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint82" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint83" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint84" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint85" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint86" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint87" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint88" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint89" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint90" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint91" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint92" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint93" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint94" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint95" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvPoint96" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cvUpdateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="epId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="DeviceInfo" representedClassName="DeviceInfo" syncable="YES">
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DeviceMPointRelation" representedClassName="DeviceMPointRelation" syncable="YES">
+        <attribute name="childid" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EventData" representedClassName="EventData" syncable="YES">
+        <attribute name="epId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="evDetail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="evName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="evNo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="evReadFlag" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="evStartEndFlag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="evTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="evType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="evUpdateTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="HistoryData_CHarmonic" syncable="YES">
+        <attribute name="epId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdDataTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdDataType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoACurMax2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoACurMax2Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoACurMax3" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoACurMax3Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoACurMax4" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoACurMax4Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoACurMax5" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoACurMax5Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoACurMax6" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoACurMax6Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoACurMax7" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoACurMax7Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoACurMax8" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoACurMax8Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoACurMax9" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoACurMax9Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoACurMax10" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoACurMax10Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoACurMax11" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoACurMax11Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoACurMax12" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoACurMax12Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoACurMax13" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoACurMax13Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoACurMax14" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoACurMax14Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoACurMax15" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoACurMax15Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoACurMax16" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoACurMax16Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoACurMax17" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoACurMax17Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoACurMax18" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoACurMax18Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoACurMax19" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoACurMax19Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax2Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax3" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax3Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax4" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax4Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax5" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax5Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax6" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax6Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax7" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax7Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax8" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax8Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax9" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax9Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax10" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax10Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax11" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax11Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax12" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax12Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax13" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax13Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax14" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax14Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax15" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax15Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax16" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax16Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax17" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax17Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax18" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax18Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax19" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBCurMax19Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax2Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax3" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax3Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax4" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax4Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax5" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax5Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax6" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax6Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax7" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax7Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax8" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax8Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax9" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax9Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax10" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax10Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax11" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax11Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax12" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax12Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax13" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax13Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax14" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax14Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax15" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax15Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax16" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax16Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax17" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax17Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax18" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax18Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax19" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCCurMax19Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdMeasureNo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdUpdateTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="HistoryData_MeasurePoint_Sta" representedClassName="HistoryData_MeasurePoint_Sta" syncable="YES">
+        <attribute name="epId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdACurMax" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdACurMaxTm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdACurOverHAccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdACurOverHHAccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdAPMaxA" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdAPMaxATm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdAPMaxB" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdAPMaxBTm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdAPMaxC" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdAPMaxCTm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdAPMaxZ" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdAPMaxZTm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdAPOverHAccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdAPOverHHAccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdAPZeroAccTmA" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdAPZeroAccTmB" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdAPZeroAccTmC" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdAPZeroAccTmZ" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdAVoltAvg" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdAVoltDownLAccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdAVoltDownLLAccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdAVoltDownLRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdAVoltMax" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdAVoltMaxTm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdAVoltMin" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdAVoltMinTm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdAVoltOverHAccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdAVoltOverHHAccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdAVoltOverHRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdAVoltRegularAccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdAVoltRegularRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdBCurMax" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdBCurMaxTm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdBCurOverHAccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdBCurOverHHAccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdBVoltAvg" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdBVoltDownLAccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdBVoltDownLLAccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdBVoltDownLRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdBVoltMax" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdBVoltMaxTm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdBVoltMin" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdBVoltMinTm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdBVoltOverHAccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdBVoltOverHHAccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdBVoltOverHRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdBVoltRegularAccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdBVoltRegularRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdCCurMax" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdCCurMaxTm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdCCurOverHAccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdCCurOverHHAccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdCurUnbalMax" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdCurUnbalMaxTm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdCurUnbalOLmtAccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdCVoltAvg" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdCVoltDownLAccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdCVoltDownLLAccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdCVoltDownLRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdCVoltMax" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdCVoltMaxTm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdCVoltMin" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdCVoltMinTm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdCVoltOverHAccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdCVoltOverHHAccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdCVoltOverHRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdCVoltRegularAccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdCVoltRegularRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdDataTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdDataType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdEconomicFlag" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdEnergyFlag" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdF25Filled" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdF27Filled" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdF28Filled" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdF33Filled" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdF35Filled" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdF36Filled" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdF43Filled" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdF44Filled" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdMeasureNo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdPfSector1AccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdPfSector2AccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdPfSector3AccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdUpdateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdVoltUnbalMax" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdVoltUnbalMaxTm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdVoltUnbalOLmtAccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdZeroCurMax" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdZeroCurMaxTm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdZeroCurOverHHAccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="HistoryData_MeasurePoint_Sta_Harmonic" representedClassName="HistoryData_MeasurePoint_Sta_Harmonic" syncable="YES">
+        <attribute name="epId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdDataTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdDataType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoCurOverLimit2Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoCurOverLimit3Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoCurOverLimit4Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoCurOverLimit5Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoCurOverLimit6Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoCurOverLimit7Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoCurOverLimit8Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoCurOverLimit9Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoCurOverLimit10Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoCurOverLimit11Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoCurOverLimit12Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoCurOverLimit13Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoCurOverLimit14Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoCurOverLimit15Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoCurOverLimit16Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoCurOverLimit17Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoCurOverLimit18Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoCurOverLimit19Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoCurOverLimitZTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoVoltOverLimit2Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoVoltOverLimit3Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoVoltOverLimit4Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoVoltOverLimit5Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoVoltOverLimit6Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoVoltOverLimit7Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoVoltOverLimit8Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoVoltOverLimit9Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoVoltOverLimit10Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoVoltOverLimit11Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoVoltOverLimit12Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoVoltOverLimit13Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoVoltOverLimit14Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoVoltOverLimit15Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoVoltOverLimit16Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoVoltOverLimit17Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoVoltOverLimit18Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoVoltOverLimit19Tm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoVoltOverLimitZTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdMeasureNo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdPhaseType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdUpdateTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="HistoryData_PowerNeeds" representedClassName="HistoryData_PowerNeeds" syncable="YES">
+        <attribute name="epId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdADMaxA" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdADMaxATm" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdADMaxB" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdADMaxBTm" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdADMaxC" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdADMaxCTm" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdADMaxZ" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdADMaxZTm" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdDataTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdDataType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdF3Filled" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdF26Filled" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdF34Filled" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdMeasureNo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdNegADMax1" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdNegADMax1Tm" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdNegADMax2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdNegADMax2Tm" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdNegADMax3" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdNegADMax3Tm" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdNegADMax4" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdNegADMax4Tm" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdNegADMaxZ" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdNegADMaxZTm" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdNegRDMax1" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdNegRDMax1Tm" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdNegRDMax2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdNegRDMax2Tm" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdNegRDMax3" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdNegRDMax3Tm" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdNegRDMax4" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdNegRDMax4Tm" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdNegRDMaxZ" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdNegRDMaxZTm" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdPosADMax1" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdPosADMax1Tm" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdPosADMax2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdPosADMax2Tm" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdPosADMax3" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdPosADMax3Tm" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdPosADMax4" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdPosADMax4Tm" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdPosADMaxZ" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdPosADMaxZTm" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdPosRDMax1" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdPosRDMax1Tm" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdPosRDMax2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdPosRDMax2Tm" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdPosRDMax3" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdPosRDMax3Tm" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdPosRDMax4" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdPosRDMax4Tm" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdPosRDMaxZ" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdPosRDMaxZTm" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdUpdateTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="HistoryData_PowerValue" representedClassName="HistoryData_PowerValue" syncable="YES">
+        <attribute name="epId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdCopperLossAEValueZ" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdDataTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdDataType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdF5Filled" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdF6Filled" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdF21Filled" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdF33Filled" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdF45Filled" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdF46Filled" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdFirstREValue1" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdFirstREValue2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdFirstREValue3" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdFirstREValue4" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdFirstREValueZ" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdFourREValue1" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdFourREValue2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdFourREValue3" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdFourREValue4" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdFourREValueZ" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdIronLossAEValueZ" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdMeasureNo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdNegAEPower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdNegAEValue1" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdNegAEValue2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdNegAEValue3" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdNegAEValue4" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdNegAEValueZ" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdNegREPower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdNegREValue1" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdNegREValue2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdNegREValue3" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdNegREValue4" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdNegREValueZ" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdPosAEPower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdPosAEValue1" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdPosAEValue2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdPosAEValue3" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdPosAEValue4" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdPosAEValueZ" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdPosREPower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdPosREValue1" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdPosREValue2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdPosREValue3" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdPosREValue4" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdPosREValueZ" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdPowerValuePosAEZ" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdPowerValuePosREZ" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdSecondREValue1" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdSecondREValue2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdSecondREValue3" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdSecondREValue4" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdSecondREValueZ" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdThirdREValue1" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdThirdREValue2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdThirdREValue3" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdThirdREValue4" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdThirdREValueZ" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdUpdateTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="HistoryData_Terminal_Sta" syncable="YES">
+        <attribute name="epId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdCommFlow" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdDataTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdDataType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdPowerOnAccTm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdResetAccCnt" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdUpdateTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="HistoryData_VHarmonic" syncable="YES">
+        <attribute name="epId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdDataTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdDataType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax2Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax3" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax3Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax4" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax4Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax5" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax5Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax6" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax6Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax7" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax7Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax8" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax8Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax9" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax9Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax10" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax10Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax11" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax11Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax12" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax12Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax13" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax13Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax14" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax14Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax15" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax15Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax16" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax16Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax17" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax17Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax18" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax18Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax19" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoAVoltMax19Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax2Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax3" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax3Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax4" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax4Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax5" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax5Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax6" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax6Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax7" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax7Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax8" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax8Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax9" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax9Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax10" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax10Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax11" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax11Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax12" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax12Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax13" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax13Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax14" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax14Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax15" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax15Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax16" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax16Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax17" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax17Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax18" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax18Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax19" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoBVoltMax19Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax2Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax3" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax3Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax4" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax4Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax5" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax5Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax6" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax6Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax7" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax7Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax8" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax8Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax9" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax9Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax10" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax10Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax11" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax11Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax12" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax12Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax13" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax13Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax14" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax14Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax15" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax15Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax16" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax16Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax17" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax17Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax18" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax18Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax19" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hdHarmoCVoltMax19Tm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hdMeasureNo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hdUpdateTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LineInfo" representedClassName="LineInfo" syncable="YES">
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LineUserRelation" representedClassName="LineUserRelation" syncable="YES">
+        <attribute name="childid" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MPointInfo" representedClassName="MPointInfo" syncable="YES">
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mid" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ParameterData_Event" syncable="YES">
+        <attribute name="eventData" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <entity name="ParameterData_MeasurePoint" representedClassName="ParameterData_MeasurePoint" syncable="YES">
+        <attribute name="epId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmCTRatio" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmEpName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmMeasureName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmMeasureNo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmPowerConnWay" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmPTRatio" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmRatedCurrent" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmRatedVoltage" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmUpdateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmWireName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ParameterData_MeasurePoint_Comm" representedClassName="ParameterData_MeasurePoint_Comm" syncable="YES">
+        <attribute name="epId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmCommAddr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmCommPort" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmCommPrtlType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmCommSpeed" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmDecimalNum" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmFeeNum" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmIntegerNum" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmMeasureNo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmMtrDeviceNo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmUpdateTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ParameterData_MeasurePoint_Limit" representedClassName="ParameterData_MeasurePoint_Limit" syncable="YES">
+        <attribute name="epId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmAPHHDuration" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmAPHHLmt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmAPHHRecoverFactor" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmAPHiDuration" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmAPHiLmt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmAPHiRecoverFactor" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmCurHarmoEffecHiLmt2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmCurHarmoEffecHiLmt3" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmCurHarmoEffecHiLmt4" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmCurHarmoEffecHiLmt5" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmCurHarmoEffecHiLmt6" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmCurHarmoEffecHiLmt7" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmCurHarmoEffecHiLmt8" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmCurHarmoEffecHiLmt9" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmCurHarmoEffecHiLmt10" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmCurHarmoEffecHiLmt11" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmCurHarmoEffecHiLmt12" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmCurHarmoEffecHiLmt13" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmCurHarmoEffecHiLmt14" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmCurHarmoEffecHiLmt15" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmCurHarmoEffecHiLmt16" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmCurHarmoEffecHiLmt17" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmCurHarmoEffecHiLmt18" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmCurHarmoEffecHiLmt19" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmCurHarmoEffecHiLmtZ" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmCurHHLmt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmCurHHLmtDuration" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmCurHHRecoverFactor" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmCurHiLmt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmCurHiLmtDuration" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmCurHiRecoverFactor" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmLostVoltTmLmt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmMeasureNo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmPfLmt1" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmPfLmt2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmSeverVoltLmt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmUnbalCurDuration" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmUnbalCurLmt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmUnbalCurRecoverFactor" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmUnbalVoltDuration" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmUnbalVoltLmt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmUnbalVoltRecoverFactor" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmUpdateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmVoltHarmoRateHiLmt2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmVoltHarmoRateHiLmt3" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmVoltHarmoRateHiLmt4" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmVoltHarmoRateHiLmt5" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmVoltHarmoRateHiLmt6" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmVoltHarmoRateHiLmt7" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmVoltHarmoRateHiLmt8" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmVoltHarmoRateHiLmt9" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmVoltHarmoRateHiLmt10" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmVoltHarmoRateHiLmt11" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmVoltHarmoRateHiLmt12" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmVoltHarmoRateHiLmt13" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmVoltHarmoRateHiLmt14" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmVoltHarmoRateHiLmt15" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmVoltHarmoRateHiLmt16" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmVoltHarmoRateHiLmt17" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmVoltHarmoRateHiLmt18" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmVoltHarmoRateHiLmt19" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmVoltHarmoRateHiLmtEven" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmVoltHarmoRateHiLmtOdd" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmVoltHarmoRateHiLmtZ" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmVoltHHLmt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmVoltHHLmtDuration" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmVoltHHRecoverFactor" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmVoltLLLmt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmVoltLLLmtDuration" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmVoltRegularHiLmt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmVoltRegularLoLmt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmVoltUnderRecoverFactor" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmZeroCurHiLmt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmZeroCurHiLmtDuration" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmZeroCurHiRecoverFactor" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="ParameterData_Terminal" representedClassName="ParameterData_Terminal" syncable="YES">
+        <attribute name="epId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmConnGroups" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmCoolingWay" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmEpAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmEpName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmEpNo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmEpType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmHostAddrFlag" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="pmIndustryName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmInsulationGrade" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmInsulationLevel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmLatitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmLongitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmManufactureDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmPhaseNum" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmRatedCurrent" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmRatedFrequency" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmRatedLoad" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmRatedVoltage" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmRegionNumber" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="pmTemperatureRise" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pmTerminalAddr" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="pmTerminalStatus" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="pmUpdateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmUserName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmWireName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ParameterData_Terminal_Comm" representedClassName="ParameterData_Terminal_Comm" syncable="YES">
+        <attribute name="epId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmEpIpAddr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmEthernetGateway" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmEthernetHostIp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmEthernetPort" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmEthernetSubnetMask" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmGprsApn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmGprsCommFlowLmt" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmGprsHostIp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmGprsPort" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmGprsRertryMaxCount" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmGprsRetryInterval" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmPassword" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmPortNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pmSSID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmUpdateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmWireOffTime" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="RealTimeData_Harmonic" syncable="YES">
+        <attribute name="epId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="rtCurrentA2HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentA3HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentA4HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentA5HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentA6HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentA7HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentA8HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentA9HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentA10HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentA11HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentA12HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentA13HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentA14HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentA15HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentA16HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentA17HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentA18HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentA19HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentB2HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentB3HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentB4HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentB5HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentB6HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentB7HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentB8HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentB9HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentB10HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentB11HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentB12HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentB13HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentB14HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentB15HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentB16HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentB17HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentB18HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentB19HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentC2HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentC3HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentC4HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentC5HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentC6HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentC7HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentC8HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentC9HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentC10HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentC11HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentC12HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentC13HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentC14HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentC15HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentC16HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentC17HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentC18HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCurrentC19HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentA2EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentA3EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentA4EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentA5EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentA6EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentA7EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentA8EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentA9EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentA10EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentA11EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentA12EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentA13EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentA14EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentA15EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentA16EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentA17EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentA18EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentA19EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentB2EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentB3EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentB4EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentB5EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentB6EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentB7EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentB8EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentB9EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentB10EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentB11EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentB12EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentB13EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentB14EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentB15EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentB16EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentB17EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentB18EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentB19EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentC2EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentC3EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentC4EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentC5EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentC6EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentC7EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentC8EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentC9EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentC10EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentC11EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentC12EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentC13EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentC14EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentC15EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentC16EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentC17EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentC18EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoCurrentC19EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltA2EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltA3EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltA4EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltA5EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltA6EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltA7EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltA8EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltA9EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltA10EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltA11EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltA12EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltA13EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltA14EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltA15EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltA16EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltA17EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltA18EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltA19EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltB2EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltB3EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltB4EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltB5EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltB6EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltB7EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltB8EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltB9EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltB10EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltB11EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltB12EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltB13EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltB14EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltB15EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltB16EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltB17EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltB18EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltB19EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltC2EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltC3EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltC4EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltC5EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltC6EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltC7EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltC8EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltC9EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltC10EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltC11EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltC12EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltC13EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltC14EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltC15EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltC16EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltC17EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltC18EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtHarmoVoltC19EffecValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtMeasureNo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="rtUpdateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rtVoltA2HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltA3HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltA4HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltA5HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltA6HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltA7HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltA8HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltA9HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltA10HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltA11HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltA12HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltA13HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltA14HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltA15HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltA16HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltA17HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltA18HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltA19HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltB2HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltB3HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltB4HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltB5HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltB6HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltB7HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltB8HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltB9HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltB10HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltB11HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltB12HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltB13HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltB14HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltB15HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltB16HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltB17HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltB18HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltB19HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltC2HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltC3HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltC4HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltC5HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltC6HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltC7HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltC8HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltC9HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltC10HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltC11HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltC12HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltC13HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltC14HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltC15HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltC16HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltC17HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltC18HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtVoltC19HarmoRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="RealTimeData_MeasurePoint" representedClassName="RealTimeData_MeasurePoint" syncable="YES">
+        <attribute name="epId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="rtAActivePower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtAApparentPower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtACurrent" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtACurrentPhaseAngle" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtAPowerFactor" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtAReactivePower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtAVolt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtAVoltPhaseAngle" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtBActivePower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtBApparentPower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtBCurrent" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtBCurrentPhaseAngle" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtBPowerFactor" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtBReactivePower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtBVolt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtBVoltPhaseAngle" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCActivePower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCApparentPower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCCurrent" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCCurrentPhaseAngle" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCPowerFactor" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCReactivePower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCVolt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCVoltPhaseAngle" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtMeasureNo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="rtUpdateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rtZActivePower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtZApparentPower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtZeroSequenceCurrent" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtZPowerFactor" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtZReactivePower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="RealTimeData_Transformer" representedClassName="RealTimeData_Transformer" syncable="YES">
+        <attribute name="epId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="rtAWindingTemperature" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtAWindingTemperatureMax" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtAWindingTemperatureMaxTm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rtBWindingTemperature" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtBWindingTemperatureMax" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtBWindingTemperatureTm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rtCWindingTemperature" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCWindingTemperatureMax" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtCWindingTemperatureMaxTm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rtImptEventCount" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="rtMeasureNo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="rtNormalEventCount" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="rtOilLevel" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtOilLevelMax" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtOilLevelTm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rtOilStress" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtOilStressMax" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtOilStressTm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rtOilTemperature" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtOilTemperatureMax" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtOilTemperatureMaxTm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rtRealLifetime" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rtUpdateTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SystemInfo" representedClassName="SystemInfo" syncable="YES">
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SystemLineRelation" representedClassName="SystemLineRelation" syncable="YES">
+        <attribute name="childid" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TempDalilyData" representedClassName="TempDalilyData" syncable="YES">
+        <attribute name="aPower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="bPower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="consume" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="cPower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="dataTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dataType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="epId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="maxConsume" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="maxConsumeTime" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="maxLoad" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="maxLoadTime" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="maxRealLost" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="measureNo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="minLoad" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="minLoadTime" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="powerFactor" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPowerEnd" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPowerMax" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPowerMaxTime" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPowerMin" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPowerMinTime" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPowerRated" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPowerStart" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TempMonthData" representedClassName="TempMonthData" syncable="YES">
+        <attribute name="aPower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="bPower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="consume" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="cPower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="dataTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dataType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="epId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="maxConsume" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="maxConsumeTime" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="maxLoad" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="maxLoadTime" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="maxRealLost" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="measureNo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="minLoad" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="minLoadTime" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="powerFactor" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPowerEnd" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPowerMax" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPowerMaxTime" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPowerMin" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPowerMinTime" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPowerRated" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPowerStart" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TempWeekData" representedClassName="TempWeekData" syncable="YES">
+        <attribute name="aPower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="bPower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="consume" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="cPower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="dataTimeEnd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dataTimeStart" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dataType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="epId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="maxConsume" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="maxConsumeTime" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="maxLoad" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="maxLoadTime" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="maxRealLost" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="measureNo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="minLoad" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="minLoadTime" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="powerFactor" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPowerEnd" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPowerMax" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPowerMaxTime" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPowerMin" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPowerMinTime" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPowerRated" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPowerStart" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TempYearData" representedClassName="TempYearData" syncable="YES">
+        <attribute name="aPower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="bPower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="consume" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="cPower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="dataTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dataType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="epId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="maxConsume" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="maxConsumeTime" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="maxLoad" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="maxLoadTime" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="maxRealLost" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="measureNo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="minLoad" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="minLoadTime" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="powerFactor" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPower" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPowerEnd" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPowerMax" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPowerMaxTime" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPowerMin" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPowerMinTime" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPowerRated" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPowerStart" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserDeviceRelation" representedClassName="UserDeviceRelation" syncable="YES">
+        <attribute name="childid" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserInfo" representedClassName="UserInfo" syncable="YES">
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="industry" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CurveData" positionX="0" positionY="0" width="128" height="1680"/>
+        <element name="DeviceInfo" positionX="0" positionY="0" width="128" height="105"/>
+        <element name="DeviceMPointRelation" positionX="0" positionY="0" width="128" height="90"/>
+        <element name="EventData" positionX="0" positionY="0" width="128" height="180"/>
+        <element name="HistoryData_CHarmonic" positionX="0" positionY="0" width="128" height="1740"/>
+        <element name="HistoryData_MeasurePoint_Sta" positionX="0" positionY="0" width="128" height="1425"/>
+        <element name="HistoryData_MeasurePoint_Sta_Harmonic" positionX="0" positionY="0" width="128" height="1273"/>
+        <element name="HistoryData_PowerNeeds" positionX="0" positionY="0" width="128" height="885"/>
+        <element name="HistoryData_PowerValue" positionX="0" positionY="0" width="128" height="928"/>
+        <element name="HistoryData_Terminal_Sta" positionX="0" positionY="0" width="128" height="150"/>
+        <element name="HistoryData_VHarmonic" positionX="0" positionY="0" width="128" height="1740"/>
+        <element name="LineInfo" positionX="0" positionY="0" width="128" height="105"/>
+        <element name="LineUserRelation" positionX="0" positionY="0" width="128" height="90"/>
+        <element name="MPointInfo" positionX="0" positionY="0" width="128" height="118"/>
+        <element name="ParameterData_Event" positionX="0" positionY="0" width="128" height="60"/>
+        <element name="ParameterData_MeasurePoint" positionX="0" positionY="0" width="128" height="210"/>
+        <element name="ParameterData_MeasurePoint_Comm" positionX="0" positionY="0" width="128" height="208"/>
+        <element name="ParameterData_MeasurePoint_Limit" positionX="0" positionY="0" width="128" height="1185"/>
+        <element name="ParameterData_Terminal" positionX="0" positionY="0" width="128" height="433"/>
+        <element name="ParameterData_Terminal_Comm" positionX="0" positionY="0" width="128" height="298"/>
+        <element name="RealTimeData_Harmonic" positionX="0" positionY="0" width="128" height="3330"/>
+        <element name="RealTimeData_MeasurePoint" positionX="0" positionY="0" width="128" height="525"/>
+        <element name="RealTimeData_Transformer" positionX="0" positionY="0" width="128" height="405"/>
+        <element name="SystemInfo" positionX="0" positionY="0" width="128" height="103"/>
+        <element name="SystemLineRelation" positionX="0" positionY="0" width="128" height="90"/>
+        <element name="TempDalilyData" positionX="0" positionY="0" width="128" height="418"/>
+        <element name="TempMonthData" positionX="160" positionY="192" width="128" height="420"/>
+        <element name="TempWeekData" positionX="0" positionY="153" width="128" height="435"/>
+        <element name="TempYearData" positionX="160" positionY="192" width="128" height="420"/>
+        <element name="UserDeviceRelation" positionX="0" positionY="0" width="128" height="90"/>
+        <element name="UserInfo" positionX="0" positionY="0" width="128" height="118"/>
+    </elements>
+</model>

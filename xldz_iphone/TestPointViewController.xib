@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1280" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TestPointViewController">
+            <connections>
+                <outlet property="btnContainer" destination="JtT-Rt-SCn" id="ZsJ-Hm-Sbe"/>
+                <outlet property="controlBtn" destination="F48-A5-hJT" id="Hmh-22-STp"/>
+                <outlet property="helpBtn" destination="7Dv-ew-TQh" id="MlL-jg-YOk"/>
+                <outlet property="historyDataBtn" destination="JiT-Pk-AG6" id="mA8-3B-pmb"/>
+                <outlet property="realtimeDataBtn" destination="uXo-GI-aUm" id="jya-sO-M7b"/>
+                <outlet property="settingBtn" destination="IIb-E2-gXt" id="NwN-g5-NsX"/>
+                <outlet property="view" destination="g4t-tM-qEb" id="pPc-E3-AIP"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="g4t-tM-qEb">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="JtT-Rt-SCn">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="192"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" id="IIb-E2-gXt">
+                            <rect key="frame" x="30" y="20" width="66" height="66"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <inset key="titleEdgeInsets" minX="-36" minY="43" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="14" minY="6" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="参数设置" image="ic_setting.png" backgroundImage="menu_btn_bg.png">
+                                <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="menu_btn_pressed_bg.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" id="F48-A5-hJT">
+                            <rect key="frame" x="127" y="20" width="66" height="66"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <inset key="titleEdgeInsets" minX="-36" minY="43" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="14" minY="6" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="控制操作" image="ic_control.png" backgroundImage="menu_btn_bg.png">
+                                <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="menu_btn_pressed_bg.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" id="7Dv-ew-TQh">
+                            <rect key="frame" x="222" y="20" width="66" height="66"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <inset key="titleEdgeInsets" minX="-36" minY="43" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="14" minY="6" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="辅助工具" image="ic_help.png" backgroundImage="menu_btn_bg.png">
+                                <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="menu_btn_pressed_bg.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" id="uXo-GI-aUm">
+                            <rect key="frame" x="30" y="106" width="66" height="66"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <inset key="titleEdgeInsets" minX="-36" minY="43" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="14" minY="6" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="实时数据" image="ic_realtime_data.png" backgroundImage="menu_btn_bg.png">
+                                <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="menu_btn_pressed_bg.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" id="JiT-Pk-AG6">
+                            <rect key="frame" x="127" y="106" width="66" height="66"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <inset key="titleEdgeInsets" minX="-36" minY="43" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="14" minY="6" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="历史数据" image="ic_history_data.png" backgroundImage="menu_btn_bg.png">
+                                <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="menu_btn_pressed_bg.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" id="ZPh-mi-Zmz">
+                            <rect key="frame" x="222" y="106" width="66" height="66"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <inset key="titleEdgeInsets" minX="-36" minY="43" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="14" minY="6" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="事件数据" image="ic_event_data.png" backgroundImage="menu_btn_bg.png">
+                                <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="menu_btn_pressed_bg.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.16862745100000001" green="0.16862745100000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_control.png" width="35" height="35"/>
+        <image name="ic_event_data.png" width="35" height="35"/>
+        <image name="ic_help.png" width="35" height="35"/>
+        <image name="ic_history_data.png" width="35" height="35"/>
+        <image name="ic_realtime_data.png" width="35" height="35"/>
+        <image name="ic_setting.png" width="35" height="35"/>
+        <image name="menu_btn_bg.png" width="66" height="66"/>
+        <image name="menu_btn_pressed_bg.png" width="66" height="66"/>
+    </resources>
+</document>
